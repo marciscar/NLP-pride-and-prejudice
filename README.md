@@ -22,8 +22,8 @@ Using Pride and Prejudice as a training corpus allows the model to capture the d
 
 ## Repository Structure
 
-NLP-pride-and-prejudice/
-├─ data/
+NLP-pride-and-prejudice/    
+├─ data/    
 │  └─ pride_and_prejudice.txt        # original text    
 ├─ notebook/    
 │  └─ pride_and_prejudice_generator.ipynb   
