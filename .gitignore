@@ -19,7 +19,6 @@ ENV/
 *.env
 
 # --- Models & logs ---
-models/
 checkpoints/
 runs/
 wandb/

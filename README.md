@@ -27,5 +27,44 @@ NLP-pride-and-prejudice/
 │  └─ pride_and_prejudice.txt        # original text    
 ├─ notebook/    
 │  └─ pride_and_prejudice_generator.ipynb   
+├─ models/      # Saved checkpoints     
 ├─ README.md    
 └─ .gitignore    
+
+
+---
+
+##  Model
+   - Two-layer LSTM trained on one-hot encoded characters.
+   - Parameter configuration:
+     ```yaml
+     hidden_dim: 256
+     num_layers: 2
+     dropout: 0.3
+     seq_len: 200
+     batch_size: 128
+     lr: 0.002
+     epochs: 80
+     ```
+   - Training uses *teacher forcing*: the correct previous character is fed at each step.
+
+
+---
+
+##  Example (seed: 'Mr')
+
+Mr. Bennet's comparions on the parsicality as
+him,” said Miss Bingley with a so much of
+his feelings, to
+his friends always cheer of his acturity, and all she had been a such a feel his
+attention of her to be
+a most ot to be an intriect of the present of the subject of
+the
+sase, a most
+being only and asking at all and almost the composions, when he choose to be the subject of the provided, to his friends, with her at this mornibes to his side to the subject will answer, and had never all him that s
+
+
+
+
+
+
